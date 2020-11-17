@@ -1,0 +1,148 @@
+
+.container {
+    background-image: linear-gradient(red, yellow);
+    height: 100vh;
+    width: 100%;
+}
+.calculator {
+    width: 250px;
+    height: 300px;
+    background-color: beige;
+    margin: auto;
+    border-radius: 5px;
+   position: relative;
+   top: 20px;
+   box-shadow: 0 4px 4px;
+   border-radius: 25px;
+}
+
+.space {
+    height: 30px;
+    border-radius: 20px 20px 0 0;
+    background-color: black;
+    text-align: center;
+    
+}
+.tim {
+    height: 10px;
+    width: 90px;
+    background-color: darkolivegreen;
+    float: right;
+    margin: 18px;
+    border-radius: 4px;
+    font-size: x-small;
+}
+#result {
+    height: 70px;
+    border: 10px solid lightblue;
+    border-radius: 0 0 8px 8px;
+    border-style: inset;
+    background-color: darkolivegreen;
+}
+
+#keyboard {
+    height: 270px;
+    background-color: black;
+    border-right:5px solid white;
+    border-left:5px solid white;
+    border-bottom:5px solid white;
+    border-radius: 4px 4px 25px 25px;
+
+}
+.display {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    font-size: 15px;
+    color: black;
+    outline: 0;
+    border: 0;
+    background-color: darkolivegreen;
+
+}
+
+#output {
+    width: 200px;
+    text-align: right;
+    height: 15px;
+    margin: 0 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: black;
+    background-color: darkolivegreen;
+    /* margin-top: 10px; */
+    border: 0
+}
+
+.operator, .number, .empty {
+    width:25px;
+    height: 25px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    border-radius: 5px 5px 20px 20px;
+    font-weight: bold;
+    font-size: small;
+
+}
+.operator, .number {
+    box-shadow: 2px 2px 3px white;
+}
+.number{
+    box-shadow: 2px 2px 3px lightblue;
+
+}
+
+ .number, .empty {
+     background-color: beige;
+ }
+
+ .number, .operator {
+     cursor: pointer;
+ }
+ .empty{
+     background-color: black;
+ }
+
+ .number:active, .operator:active {
+     font-size: xx-small;
+ }
+
+ .number:focus, .operator:focus{
+     outline: none;
+ }
+
+ button:nth-child(4) {
+     font-size: 28px;
+     background-color: aqua;
+ }
+ button:nth-child(8) {
+    font-size: 28px;
+    background-color: palevioletred;
+}
+
+button:nth-child(12) {
+    font-size: 28px;
+    background-color: teal;
+}
+
+button:nth-child(16) {
+    font-size: 28px;
+    background-color: pink;
+}
+button:nth-child(20) {
+    font-size: 28px;
+    background-color: salmon;
+}
+button:nth-child(1) {
+    font-size: 28px;
+    background-color: wheat;
+}
+button:nth-child(2) {
+    font-size: 28px;
+    background-color: wheat;
+}
+button:nth-child(3) {
+    font-size: 28px;
+    background-color: wheat;
+}
